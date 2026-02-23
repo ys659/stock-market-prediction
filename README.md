@@ -1,3 +1,6 @@
+# Run with:
+docker compose -f docker/docker-compose.yml up --build
+
 # Stock Market API
 
 This is a backend API for a stock market
