@@ -1,4 +1,4 @@
-# Run with:
+## Run with:
 docker compose -f docker/docker-compose.yml up --build
 
 # Stock Market API
