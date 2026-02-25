@@ -38,6 +38,7 @@ class Stock(Base):
 
 class HistoricalStockData(Base):
     __tablename__ = "historical_stock_data"
+    
     id = Column(Integer, primary_key=True, index=True)
     symbol = Column(String)
     timestamp = Column(DateTime)
